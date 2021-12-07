@@ -6,6 +6,7 @@
 /*===Googel Fonts Sriracha===*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+/*Configuração padrão*/
 :root{
     --font0: Verdana, Geneva, Tahoma, sans-serif;
     --font1: 'Passion One', cursive;            /*Título*/
@@ -70,24 +71,24 @@ section.imagem{
     background-color: rgba(223, 223, 223, 0.6);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;           /*Importante para apresentar efeito PARALLAX*/
 }
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.432);
-    display: inline-block;
+    display: inline-block;                  /*Ajusta a DIV de acordo com o texto*/
     color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
 section#img01{
-    background-image: url('../../imagens/background001.jpg');
-    background-position: right center;
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;      /*Ajusta a imagem na posição preferida (Direita /* Centro)*/
 }
 
 section#img02{
-    background-image: url('../../imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
     background-position: right center;
 }
 
